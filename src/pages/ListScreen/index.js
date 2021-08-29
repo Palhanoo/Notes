@@ -49,7 +49,7 @@ export default () => {
                 keyExtractor={(item, index)=>index.toString()}
             /> 
         }
-        {list.length == 0 &&
+        {list.length === 0 &&
             <NoNotes>
                 <NoNotesImage source={require('../../assets/note.png')} />
                 <NoNotesText>Nenhuma nota...</NoNotesText>
